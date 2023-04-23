@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+body {
+    display: flex;
+      justify-content:center;
+      align-items: center;
+  }
+  
+img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+  }
+input[type="file"] {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 3rem;
+    padding: .5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  
+input[type="file"]:hover
+input[type="file"]:focus{
+    border-color: #282522;
+  }
+  
+input[type="file"]:is(:hover, :focus) {
+    outline-offset: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  
